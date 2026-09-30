@@ -4,6 +4,9 @@ A photo puzzle game by Akash Vishwakarma. Pick a photo, shuffle the tiles and br
 
 ## Play
 
+[Open the live game](https://akash991833.github.io/photo-puzzle-studio/)
+
+
 Choose a built-in photo or upload your own image, select 3 × 3, 4 × 4 or 6 × 6, then press **Shuffle & play**. Tap two tiles to swap them. On a desktop, you can also drag one tile onto another. Every puzzle is solvable because any two tiles can be swapped.
 
 - Timer, move counter and live count of tiles in the right place
@@ -47,3 +50,5 @@ Tested in Chromium at desktop and 390px mobile widths: actual file upload, sampl
 ## Sample photography
 
 Sample photos are from [Lorem Picsum](https://picsum.photos), which provides Unsplash photos. Downloaded photo sources: https://picsum.photos/id/16/1000/1000 (coast), https://picsum.photos/id/28/1000/1000 (forest), https://picsum.photos/id/1040/1000/1000 (castle). They are bundled so gameplay has no image-service dependency.
+
+Photography credits: [Paul Jarvis](https://unsplash.com/photos/gkT4FfgHO5o), [Jerry Adney](https://unsplash.com/photos/_WiFMBRT7Aw), and [Rachel Davis](https://unsplash.com/photos/tn2rBnvIl9I).
