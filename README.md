@@ -6,7 +6,7 @@ Live browser game: https://akash991833.github.io/photo-puzzle-studio/
 
 ## Android
 
-Capacitor Android app: `com.akash.photopuzzle`, Frame Jigsaw, v1.0 (versionCode 1), Android 7+.
+Capacitor Android app: `com.akash.photopuzzle`, Frame Jigsaw, v1.1 (versionCode 2), Android 7+.
 
 ```
 npm ci
