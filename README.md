@@ -1,38 +1,21 @@
-# Frame / Photo Puzzle Studio
+# Frame Jigsaw
 
-Turn your favorite photos into a sliding-swap puzzle — right in your browser. No accounts, no servers: your photos never leave your device.
+Photo jigsaw game with a wooden table, interlocking pieces, and a full tray. Pick any loose piece in any order. No forced sequence or tray pages. Built-in photos and custom photo uploads stay on the device.
 
-**Play it live:** https://akash991833.github.io/photo-puzzle-studio/
+Live browser game: https://akash991833.github.io/photo-puzzle-studio/
 
-## Features
+## Android
 
-- **Upload any photo** (JPG, PNG, WebP up to 20 MB) or pick a built-in sample
-- **Auto photo enhancement** — every upload is gently sharpened, color-balanced and upscaled client-side before slicing (contrast stretch + saturation + unsharp mask)
-- **Easy / Medium / Hard** presets (3×3, 4×4, 6×6) plus a **custom grid** — choose any columns × rows from 2×2 up to 64 pieces
-- Timer, move counter, live "in place" progress
-- Peek at the original photo anytime with Preview
-- Pause anytime (auto-pauses when the tab hides)
-- Optional tile numbers for an easier run
-- Tap-to-swap or drag-and-drop, keyboard friendly
-- Mobile-perfect responsive layout
+Capacitor Android app: `com.akash.photopuzzle`, Frame Jigsaw, v1.0 (versionCode 1), Android 7+.
 
-## Tech
-
-A single `index.html` — no build step, no dependencies, no backend. All image processing (enhancement, cropping, slicing) happens in `<canvas>` on your device.
-
-## Run locally
-
-Open `index.html` in any modern browser, or serve the folder:
-
-```bash
-python3 -m http.server 8000
-# then visit http://localhost:8000
+```
+npm ci
+cp index.html www/index.html
+npx cap sync android
+cd android
+./gradlew assembleRelease
 ```
 
-## Publishing
+Use JDK 21 and Android SDK 36. Sign the resulting unsigned APK with the game's existing owner-held key for updates. Never commit the key or passwords. The encrypted signing-key backup is private in the owner's Drive, and its password is stored separately in the secure vault.
 
-Hosted with GitHub Pages from the `main` branch.
-
----
-
-Made by [Akash Vishwakarma](https://github.com/AKASH991833)
+The app includes all game assets and does not request Internet access. Image upload uses Android's system file picker. Device installation and file-picker behavior should be verified on a phone before broader distribution.

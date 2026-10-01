@@ -1,0 +1,26 @@
+{
+  "name": "puzzle",
+  "version": "1.0.0",
+  "description": "Turn your favorite photos into a sliding-swap puzzle — right in your browser. No accounts, no servers: your photos never leave your device.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AKASH991833/photo-puzzle-studio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AKASH991833/photo-puzzle-studio/issues"
+  },
+  "homepage": "https://github.com/AKASH991833/photo-puzzle-studio#readme",
+  "devDependencies": {
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/cli": "^8.5.2",
+    "@capacitor/core": "^8.5.2",
+    "playwright": "^1.63.0"
+  }
+}
